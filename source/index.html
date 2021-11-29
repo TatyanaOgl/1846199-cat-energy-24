@@ -40,12 +40,12 @@
       <main class="page-main">
         <section class="programs">
           <ul class="programs__list list-reset">
-            <li class="programs__item programs__item-icon">
+            <li class="programs__item programs__item-icon-slimming">
               <h3 class="programs__title">похудение</h3>
               <p class="programs__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
               <a class="programs__link" href="catalog.html">каталог slim</a>
             </li>
-            <li class="programs__item programs__item-icon">
+            <li class="programs__item programs__item-icon-weight">
               <h3 class="programs__title">Набор массы</h3>
               <p class="programs__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
               <a class="programs__link" href="catalog.html">каталог pro</a>
@@ -62,21 +62,21 @@
           </ul>
         </section>
         <section class="sample">
-          <h2 class="sample__title title-general">Живой пример</h2>
-          <div class="sample__text">
+          <div class="sample__content">
+            <h2 class="sample__title title-general">Живой пример</h2>
             <p>Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+            <ul class="sample__list list-reset">
+              <li class="sample__item">
+                <span class="sample__number">5 кг</span>
+                <span class="sample__list-title">снижение веса</span>
+              </li>
+              <li class="sample__item">
+                <span class="sample__number">60 дней</span>
+                <span class="sample__list-title">затрачено времени</span>
+              </li>
+            </ul>
+            <p class="sample-description">Затраты на питание: 15 000 РУБ.</p>
           </div>
-          <ul class="sample__list list-reset">
-            <li class="sample__item">
-              <span class="sample__number">5 кг</span>
-              <p class="sample__list-title">снижение веса</p>
-            </li>
-            <li class="sample__item">
-              <span class="sample__number">60 дней</span>
-              <p class="sample__list-title">затрачено времени</p>
-            </li>
-          </ul>
-          <p class="sample-description">Затраты на питание: 15 000 РУБ.</p>
           <div class="sample__photo">
             <img class="sample__photo-thick" src="img/cat-thick.jpg" alt="Толстый кот">
             <img class="sample__photo-thin" src="img/cat-thin.jpg" alt="Худой кот">
@@ -84,7 +84,7 @@
           <div class="sample__range">
             <div class="sample__range-bar">
               <button class="sample__range-toggle" type="button">было</button>
-              <span class=""></span>
+              <span class="sample__range-scale"></span>
               <button class="sample__range-toggle" type="button">стало</button>
             </div>
           </div>
@@ -93,13 +93,15 @@
       <footer class="page-footer">
         <section class="contacts">
           <div class="contacts__position">
-            <p class="contacts__text">приглашаем к сотрудничеству дилеров!</p>
-            <p class="contacts__address">ул. Большая Конюшенная, д. 19/8<br> Санкт-Петербург</p>
+            <div class="contacts__container">
+              <p class="contacts__text">приглашаем к сотрудничеству дилеров!</p>
+              <p class="contacts__address">ул. Большая Конюшенная, д. 19/8<br> Санкт-Петербург</p>
+            </div>
           </div>
-        </section>
-        <div class="page-footer__location">
-          <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.629461548045!2d30.32322444236962!3d59.93829048456305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1638036275535!5m2!1sru!2sru" width="100%" height="362" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
+          <div class="page-footer__location">
+            <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.629461548045!2d30.32322444236962!3d59.93829048456305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1638036275535!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+      </section>
         <a class="page-footer__logo">
           <img src="img/footer-logo.svg" alt="Cat Energy">
         </a>
