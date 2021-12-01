@@ -75,25 +75,28 @@
                 <span class="sample__list-title">затрачено времени</span>
               </li>
             </ul>
-            <p class="sample-description">Затраты на питание: 15 000 РУБ.</p>
+            <p class="sample__description">Затраты на питание: 15 000 РУБ.</p>
           </div>
-          <div class="sample__photo">
-            <img class="sample__photo-thick" src="img/cat-thick.jpg" alt="Толстый кот">
-            <img class="sample__photo-thin" src="img/cat-thin.jpg" alt="Худой кот">
-          </div>
-          <div class="sample__range">
-            <div class="sample__range-bar">
-              <button class="sample__range-toggle" type="button">было</button>
-              <span class="sample__range-scale"></span>
-              <button class="sample__range-toggle" type="button">стало</button>
+          <div class="sample__slider-container">
+            <div class="sample__slider-photo">
+              <img class="sample__photo-thick slider-photo" src="img/cat-thick.jpg" alt="Толстый кот">
+              <img class="sample__photo-thin slider-photo" src="img/cat-thin.jpg" alt="Худой кот">
+            </div>
+            <div class="sample__range">
+              <div class="sample__range-bar">
+                <button class="sample__range-toggle" type="button">было</button>
+                <span class="sample__range-scale"></span>
+                <button class="sample__range-toggle" type="button">стало</button>
+              </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="page-footer">
+      <footer class="footer">
         <section class="contacts">
-          <div class="contacts__position">
-            <div class="contacts__container">
+          <h2 class="visually-hidden">Наши контакты</h2>
+          <div class="contacts__wrapper">
+            <div class="contacts__position">
               <p class="contacts__text">приглашаем к сотрудничеству дилеров!</p>
               <p class="contacts__address">ул. Большая Конюшенная, д. 19/8<br> Санкт-Петербург</p>
             </div>
@@ -101,29 +104,33 @@
           <div class="page-footer__location">
             <iframe src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.629461548045!2d30.32322444236962!3d59.93829048456305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1638036275535!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
           </div>
-      </section>
-        <a class="page-footer__logo">
-          <img src="img/footer-logo.svg" alt="Cat Energy">
-        </a>
-        <div class="page-footer__social social">
-          <ul class="social__list list-reset">
-            <li class="social__item">
-              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Вконтакте</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Инстаграм</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
-            </li>
-          </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-          <a class="copyright__link-logo" href="https://htmlacademy.ru/intensive/adaptive">
-            <img src="img/footer-logo-html.svg" alt="Логотип HTML Academy">
-          </a>
-        </div>
+        </section>
+        <section class="footer__container">
+          <div class="footer-logo-container">
+            <a class="footer__logo">
+              <img src="img/footer-logo.svg" alt="Cat Energy">
+            </a>
+          </div>
+          <div class="footer__social social">
+            <ul class="social__list list-reset">
+              <li class="social__item">
+                <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Вконтакте</a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Инстаграм</a>
+              </li>
+              <li class="social__item">
+                <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Фейсбук</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__copyright copyright">
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            <a class="copyright__link-logo" href="https://htmlacademy.ru/intensive/adaptive">
+              <img src="img/footer-logo-html.svg" alt="Логотип HTML Academy">
+            </a>
+          </div>
+        </section>
       </footer>
   </body>
 </html>
