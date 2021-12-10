@@ -1,0 +1,48 @@
+.sample {
+  background-color: #EAEAEA;
+}
+.sample__content p {
+  color: #444444;
+}
+.sample__item {
+  border: 1px solid #CDCDCD;
+  border-radius: 3px;
+}
+.sample__number {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+}
+.sample__description {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.sample__range-bar {
+  position: relative;
+}
+.sample__range-toggle {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  padding: 5px;
+}
+.sample__range-toggle:first-child {
+  padding-right: 450px;
+}
+.sample__range-toggle:first-child::before {
+  position: absolute;
+  width: 426px;
+  height: 6px;
+  top: 18px;
+  left: 70px;
+  background-color: #DCDCDC;
+  border-radius: 6px;
+  content: "";
+}

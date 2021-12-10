@@ -1,0 +1,42 @@
+.programs__list {
+  padding: 0;
+}
+.programs__item {
+  background-color: #F2F2F2;
+  padding: 30px 51px 59px 52px;
+  margin-bottom: 20px;
+}
+.programs__item-icon-slimming {
+  background-image: url("/img/cat-back-slim.svg");
+  background-repeat: no-repeat;
+  background-position: 36px 30px;
+}
+.programs__item-icon-weight {
+  background-image: url("/img/cat-back-pro.svg");
+  background-repeat: no-repeat;
+  background-position: 36px 30px;
+}
+.programs__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.programs__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.programs__link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}

@@ -1,0 +1,43 @@
+.extra-products {
+  padding-bottom: 87px;
+}
+.extra-products__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.extra-products__table th,
+.extra-products__table td {
+  padding: 20px 0;
+  border-bottom: 1px solid #CDCDCD;
+}
+.extra-products__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-bottom: 80px;
+}
+.extra-products__item {
+  border-bottom: 1px solid #CDCDCD;
+}
+.extra-products__item-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #222222;
+}
+.order-all {
+  background-image: url("/img/catalog/case.jpg");
+  background-repeat: no-repeat;
+  background-color: rgba(104, 183, 56, 0.85);
+  width: 100%;
+  height: 280px;
+}
+.order-all__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
