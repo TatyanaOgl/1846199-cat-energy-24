@@ -1,0 +1,98 @@
+.main-form {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.main-form__title {
+  font-size: 60px;
+  line-height: 60px;
+  color: #000000;
+  margin-bottom: 56px;
+}
+.selection {
+  padding-bottom: 60px;
+}
+.selection__info {
+  margin: 0;
+  margin-bottom: 56px;
+}
+.field__group {
+  margin-bottom: 20px;
+}
+.field__group label {
+  color: #444444;
+  margin-right: 14px;
+}
+.field__group input {
+  border: 1px solid #E7E7E7;
+  padding: 10px 20px;
+}
+.program-form {
+  border: 1px solid #E7E7E7;
+  padding: 25px;
+  color: #222222;
+}
+.title-legend {
+  font-size: 36px;
+  line-height: 36px;
+  color: #000000;
+}
+.information {
+  margin-bottom: 65px;
+}
+.information__legend {
+  margin-bottom: 20px;
+}
+.information__legend label {
+  color: #444444;
+  margin-right: 20px;
+}
+.information__legend input {
+  border: 1px solid #CDCDCD;
+  padding: 10px 18px;
+}
+.field,
+.field__input {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #444444;
+}
+.comment {
+  margin-bottom: 65px;
+}
+.comment textarea {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #444444;
+  width: 100%;
+  border: 1px solid #E7E7E7;
+}
+.comment__title {
+  margin-bottom: 76px;
+}
+.still__title {
+  margin-bottom: 60px;
+}
+.still__form {
+  margin-bottom: 32px;
+}
+.button-send {
+  border: none;
+  cursor: pointer;
+}
+.small-block p {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: none;
+  color: #000000;
+}

@@ -1,0 +1,36 @@
+.advantages__item {
+  padding-left: 85px;
+}
+.advantages__list {
+  font-size: 16px;
+  line-height: 24px;
+  color: #444444;
+}
+.advantages__item--healthy {
+  background-image: url("/img/healthy.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
+.advantages__item--powder {
+  background-image: url("/img/powder.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
+.advantages__item--appliance {
+  background-image: url("/img/appliance.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
+.advantages__item--scales {
+  background-image: url("/img/scales.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
