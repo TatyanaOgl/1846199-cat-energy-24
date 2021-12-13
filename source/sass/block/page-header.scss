@@ -1,42 +1,8 @@
+.title-general {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+}
 
-.main-nav__list {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #000000;
-  list-style-type: none;
-}
-.site-list__item a {
-  text-decoration: none;
-  color: #000000;
-}
-.page-header-legend {
-  background-color: rgba(104, 183, 56, 0.85);
-  background-image: url("/img/cat-header.jpg");
-  background-repeat: no-repeat;
-}
-.page-header__title, .title-general {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 60px;
-  text-transform: uppercase;
-}
-.page-header__text {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  text-transform: uppercase;
-}
-.page-header__button {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 20px;
-  text-decoration: none;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}

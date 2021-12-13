@@ -35,43 +35,45 @@
       <section class="selection">
         <p class="selection__info">Заполните анкету, и мы подберем программу питания для вашего кота</p>
         <form class="selection__form" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="field">
-            <div class="field__group">
-              <label for="name">Имя:<sup>*</sup></label>
-              <input class="field__input" type="text" id="name" name="name" placeholder="Барсик" required>
-            </div>
-            <div class="field__group">
-              <label for="weight">Вес (кг):<sup>*</sup></label>
-              <input class="field__input" type="text" id="weight" name="weight" placeholder="7" required>
-            </div>
-            <div class="field__group">
-              <label for="age">Возраст (лет):</label>
-              <input class="field__input" type="text" id="age" name="age" placeholder="7">
-            </div>
-          </div>
+          <fieldset class="field">
+            <ul class="field__list list-reset">
+              <li class="field__item information__legend">
+                <label class="field__label" for="name">Имя:<sup>*</sup></label>
+                <input class="field__input" type="text" id="name" name="name" placeholder="Барсик" required>
+              </li>
+              <li class="field__item information__legend">
+                <label class="field__label" for="weight">Вес (кг):<sup>*</sup></label>
+                <input class="field__input" type="text" id="weight" name="weight" placeholder="7" required>
+              </li>
+              <li class="field__item information__legend">
+                <label class="field__label" for="age">Возраст (лет):</label>
+                <input class="field__input" type="text" id="age" name="age" placeholder="7">
+              </li>
+            </ul>
+          </fieldset>
           <div class="program-form">
             <div class="program-form__item">
               <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="slimming" id="slimming" value="Похудение" checked>
-              <label class="program-form__item-label" for="slimming">Похудение</label>
+              <label class="field__label program-form__item-label" for="slimming">Похудение</label>
             </div>
             <div class="program-form__item">
               <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="weight-gain" id="weight-gain" value="Набор массы">
-              <label class="program-form__item-label" for="weight-gain">Набор массы</label>
+              <label class="field__label program-form__item-label" for="weight-gain">Набор массы</label>
             </div>
             <div class="program-form__item">
               <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="advice" id="advice" value="Нужен совет">
-              <label class="program-form__item-label" for="advice">Не знаю (Нужен ваш совет)</label>
+              <label class="field__label program-form__item-label" for="advice">Не знаю (Нужен ваш совет)</label>
             </div>
           </div>
           <div class="information">
             <h3 class="information__title title-legend">Контактные данные (владельца кота)</h3>
               <div class="information__legend information__email-style">
-                <label for="information__email">E-mail:<sup>*</sup></label>
-                <input class="field" type="email" id="information__email" name="information__email" placeholder="кuklachev@gmail.com" required>
+                <label class="field__label" for="information__email">E-mail:<sup>*</sup></label>
+                <input class="field__input" type="email" id="information__email" name="information__email" placeholder="кuklachev@gmail.com" required>
               </div>
               <div class="information__legend information__phone-style">
-                <label for="information__phone">Телефон:<sup>*</sup></label>
-                <input class="field" type="text" id="information__phone" name="information__phone" placeholder="8 (960) 900-60-90" required>
+                <label class="field__label" for="information__phone">Телефон:<sup>*</sup></label>
+                <input class="field__input" type="text" id="information__phone" name="information__phone" placeholder="8 (960) 900-60-90" required>
               </div>
             </div>
           <div class="comment">
@@ -105,7 +107,7 @@
       </section>
     </main>
     <footer class="footer">
-      <section class="contacts">
+      <section class="contacts contacts__catalog">
         <h2 class="visually-hidden">Наши контакты</h2>
         <div class="contacts__wrapper">
           <div class="contacts__position">

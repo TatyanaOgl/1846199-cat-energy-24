@@ -1,17 +1,18 @@
-.contacts__position {
-  padding-bottom: 50px;
-}
 .footer__container {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   padding: 60px 30px;
 }
-.contacts__text {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
-  text-transform: uppercase;
+
+.footer__logo-container {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d9d9d9;
 }
+
 .footer__location iframe {
   width: 100%;
+}
+
+.footer__social {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d9d9d9;
 }
