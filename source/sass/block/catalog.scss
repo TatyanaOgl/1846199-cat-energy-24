@@ -46,11 +46,6 @@
   text-transform: uppercase;
 }
 
-.catalog__card-title--show {
-  color: #111111;
-  margin: 0;
-  margin-bottom: 23px;
-}
 
 .catalog__card-link {
   color: #222222;
@@ -71,7 +66,8 @@
   font-size: 20px;
   line-height: 22px;
   text-transform: uppercase;
-  color: #111111;
+  margin: 0;
+  margin-bottom: 23px;
 }
 
 .catalog__card-text {

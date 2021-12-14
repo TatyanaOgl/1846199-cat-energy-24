@@ -4,9 +4,10 @@
 }
 
 .promo__wrapper {
-  background-image: url("../img/rectangle.svg"), url("../img/cat-header.jpg");
+  padding: 27px 20px 135px;
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/cat-header.jpg");
   background-repeat: no-repeat;
-  height: 320px;
+  background-size: contain;
 }
 
 .promo__title {
@@ -39,6 +40,7 @@
   position: absolute;
   bottom: 0;
   left: 55px;
+  z-index: 1;
 }
 
 .promo__image {

@@ -1,8 +1,8 @@
 .order-all {
-  background-image: url("../img/catalog/rectangle-catalog.svg"), url("../img/catalog/case.jpg");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../img/catalog/case.jpg");
   background-repeat: no-repeat;
-  width: 280px;
-  height: 290px;
+  padding: 153px 61px 43px 58px;
+  background-size: contain;
 }
 
 .order-all__text {
@@ -10,5 +10,4 @@
   line-height: 20px;
   color: #ffffff;
   text-align: center;
-  padding: 185px 61px 43px 58px;
 }

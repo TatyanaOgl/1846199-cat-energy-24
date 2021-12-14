@@ -37,68 +37,72 @@
         <form class="selection__form" action="https://echo.htmlacademy.ru/" method="post">
           <fieldset class="field">
             <ul class="field__list list-reset">
-              <li class="field__item information__legend">
-                <label class="field__label" for="name">Имя:<sup>*</sup></label>
-                <input class="field__input" type="text" id="name" name="name" placeholder="Барсик" required>
+              <li class="field__item information-legend">
+                <label class="field-label" for="name">Имя:<sup>*</sup></label>
+                <input class="field-input" type="text" id="name" name="name" placeholder="Барсик" required>
               </li>
-              <li class="field__item information__legend">
-                <label class="field__label" for="weight">Вес (кг):<sup>*</sup></label>
-                <input class="field__input" type="text" id="weight" name="weight" placeholder="7" required>
+              <li class="field__item information-legend">
+                <label class="field-label" for="weight">Вес (кг):<sup>*</sup></label>
+                <input class="field-input" type="text" id="weight" name="weight" placeholder="7" required>
               </li>
-              <li class="field__item information__legend">
-                <label class="field__label" for="age">Возраст (лет):</label>
-                <input class="field__input" type="text" id="age" name="age" placeholder="7">
+              <li class="field__item information-legend">
+                <label class="field-label" for="age">Возраст (лет):</label>
+                <input class="field-input" type="text" id="age" name="age" placeholder="7">
               </li>
             </ul>
           </fieldset>
-          <div class="program-form">
-            <div class="program-form__item">
-              <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="slimming" id="slimming" value="Похудение" checked>
-              <label class="field__label program-form__item-label" for="slimming">Похудение</label>
+          <fieldset class="program-form">
+            <ul class="program-form__list list-reset">
+              <li class="program-form__item">
+                <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="slimming" id="slimming" value="Похудение" checked>
+                <label class="field-label program-form__item-label" for="slimming">Похудение</label>
+              </li>
+              <li class="program-form__item">
+                <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="weight-gain" id="weight-gain" value="Набор массы">
+                <label class="field-label program-form__item-label" for="weight-gain">Набор массы</label>
+              </li>
+              <li class="program-form__item">
+                <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="advice" id="advice" value="Нужен совет">
+                <label class="field-label program-form__item-label" for="advice">Не знаю (Нужен ваш совет)</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="information">
+            <legend class="information__title title-legend">Контактные данные (владельца кота)</legend>
+            <div class="information-legend information__email-style">
+              <label class="field-label" for="information__email">E-mail:<sup>*</sup></label>
+              <input class="field-input" type="email" id="information__email" name="information__email" placeholder="кuklachev@gmail.com" required>
             </div>
-            <div class="program-form__item">
-              <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="weight-gain" id="weight-gain" value="Набор массы">
-              <label class="field__label program-form__item-label" for="weight-gain">Набор массы</label>
+            <div class="information-legend information__phone-style">
+              <label class="field-label" for="information__phone">Телефон:<sup>*</sup></label>
+              <input class="field-input" type="text" id="information__phone" name="information__phone" placeholder="8 (960) 900-60-90" required>
             </div>
-            <div class="program-form__item">
-              <input class="visually-hidden program-form__item-input program-form__item-radio" type="radio" name="advice" id="advice" value="Нужен совет">
-              <label class="field__label program-form__item-label" for="advice">Не знаю (Нужен ваш совет)</label>
-            </div>
-          </div>
-          <div class="information">
-            <h3 class="information__title title-legend">Контактные данные (владельца кота)</h3>
-              <div class="information__legend information__email-style">
-                <label class="field__label" for="information__email">E-mail:<sup>*</sup></label>
-                <input class="field__input" type="email" id="information__email" name="information__email" placeholder="кuklachev@gmail.com" required>
-              </div>
-              <div class="information__legend information__phone-style">
-                <label class="field__label" for="information__phone">Телефон:<sup>*</sup></label>
-                <input class="field__input" type="text" id="information__phone" name="information__phone" placeholder="8 (960) 900-60-90" required>
-              </div>
-            </div>
+          </fieldset>
           <div class="comment">
             <h3 class="comment__title title-legend">Комментарий</h3>
             <textarea name="comment" id="comment" rows="5" placeholder="Расскажите обо всех повадках кота"></textarea>
           </div>
-          <div class="still">
-            <h3 class="still__title title-legend">Дополнительно</h3>
-              <div class="still__form">
-                <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="sweetener" id="sweetener" value="Cахарозаменитель" checked>
-                <label class="still__form-label" for="sweetener">Сахарозаменитель</label>
-              </div>
-              <div class="still__form">
-                <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="water" id="water" value="Вода">
-                <label class="still__form-label">Питьевая вода</label>
-              </div>
-              <div class="still__form">
-                <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="milk" id="milk" value="Молоко">
-                <label class="still__form-label">Молоко</label>
-              </div>
-              <div class="still__form">
-                <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="vitamins" id="vitamins" value="Витамины">
-                <span class="still__form-label">Витамины</span>
-              </div>
-          </div>
+          <fieldset class="still">
+            <legend class="still__title title-legend">Дополнительно</legend>
+            <ul class="still__list list-reset">
+                <li class="still__form">
+                  <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="sweetener" id="sweetener" value="Cахарозаменитель" checked>
+                  <label class="still__form-label" for="sweetener">Сахарозаменитель</label>
+                </li>
+                <li class="still__form">
+                  <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="water" id="water" value="Вода">
+                  <label class="still__form-label">Питьевая вода</label>
+                </li>
+                <li class="still__form">
+                  <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="milk" id="milk" value="Молоко">
+                  <label class="still__form-label">Молоко</label>
+                </li>
+                <li class="still__form">
+                  <input class="visually-hidden still__form-input still__form-checkbox" type="checkbox" name="vitamins" id="vitamins" value="Витамины">
+                  <span class="still__form-label">Витамины</span>
+                </li>
+              </ul>
+          </fieldset>
           <button class="button-send button" type="submit">Отправить заявку</button>
         </form>
         <div class="small-block">
