@@ -1,8 +1,8 @@
-.catalog__list {
+.catalog-list {
   margin-bottom: 60px;
 }
 
-.catalog__card {
+.catalog-item {
   position: relative;
   padding: 25px 40px 40px 40px;
   margin-bottom: 20px;
@@ -10,13 +10,13 @@
   border-bottom: 1px solid #ebebeb;
 }
 
-.catalog__card--show {
+.catalog-item-show {
   background-color: transparent;
   border: 2px solid #f2f2f2;
   padding-top: 150px;
 }
 
-.catalog__card--show::before {
+.catalog-item-show::before {
   height: 2px;
   width: 60px;
   top: 52px;
@@ -27,7 +27,7 @@
   content: "";
 }
 
-.catalog__card--show::after {
+.catalog-item-show::after {
   height: 2px;
   width: 60px;
   position: absolute;
@@ -38,7 +38,7 @@
   content: "";
 }
 
-.catalog__card-legend h3 {
+.catalog-item__legend h3 {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -47,12 +47,12 @@
 }
 
 
-.catalog__card-link {
+.catalog-item__link {
   color: #222222;
   text-decoration: none;
 }
 
-.catalog__card-table {
+.catalog-item__table {
   font-size: 14px;
   line-height: 16px;
   color: #444444;
@@ -60,7 +60,7 @@
   width: 100%;
 }
 
-.catalog__card-title {
+.catalog-item__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -70,7 +70,7 @@
   margin-bottom: 23px;
 }
 
-.catalog__card-text {
+.catalog-item__text {
   font-size: 12px;
   line-height: 16px;
   color: #444444;

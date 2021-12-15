@@ -1,20 +1,20 @@
-.extra-products {
+.extra {
   padding-bottom: 35px;
 }
 
-.extra-products__table {
+.extra-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 35px;
 }
 
-.extra-products__table th,
-.extra-products__table td {
+.extra-table th,
+.extra-table td {
   padding: 20px 0;
   border-bottom: 1px solid #cdcdcd;
 }
 
-.extra-products__title {
+.extra__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -23,13 +23,13 @@
   margin-bottom: 80px;
 }
 
-.extra-products__item {
+.extra-table__list {
   font-size: 14px;
   line-height: 14px;
   border-bottom: 1px solid #cdcdcd;
 }
 
-.extra-products__item-title {
+.extra-table__item-title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
