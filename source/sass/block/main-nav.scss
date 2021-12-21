@@ -6,9 +6,20 @@
   text-transform: uppercase;
   color: #000000;
   list-style-type: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
 }
 
 .main-nav__item a {
   text-decoration: none;
   color: #000000;
+}
+
+
+@media (min-width: $tablet-width) {
+  .main-nav__item {
+    margin-right: 33px;
+  }
 }

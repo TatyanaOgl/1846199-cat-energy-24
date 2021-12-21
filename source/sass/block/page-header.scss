@@ -1,3 +1,19 @@
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header__top {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .page-header__logo {
   text-decoration: none;
+}
+
+.page-header__logo-legend {
+  height: 65px;
 }

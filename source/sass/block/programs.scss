@@ -1,23 +1,45 @@
 .programs__list {
   padding: 0;
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+  }
 }
 
 .programs__item {
   background-color: #f2f2f2;
   padding: 30px 33px 22px 20px;
   margin-bottom: 20px;
+
+  @media (min-width: $tablet-width) {
+    padding: 77px 316px 57px 52px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .programs__item:not(:last-child) {
+    margin-right: 80px;
+  }
 }
 
 .programs__item-icon-slimming {
   background-image: url("../img/cat-back-slim.svg");
   background-repeat: no-repeat;
   background-position: 25px 25px;
+
+  @media (min-width: $tablet-width) {
+    background-position: right;
+  }
 }
 
 .programs__item-icon-weight {
   background-image: url("../img/cat-back-pro.svg");
   background-repeat: no-repeat;
   background-position: 13px 30px;
+
+  @media (min-width: $tablet-width) {
+    background-position: right;
+  }
 }
 
 .programs__title {
@@ -30,6 +52,13 @@
   padding-left: 53px;
   margin: 0;
   margin-bottom: 32px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: start;
+    padding: 0;
+  }
 }
 
 .programs__text {
@@ -38,6 +67,12 @@
   margin: 0;
   padding-bottom: 23px;
   border-bottom: 1px solid #d9d9d9;
+
+  @media (min-width: $tablet-width) {
+    border-bottom: none;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .programs__link {
@@ -50,4 +85,9 @@
   text-decoration: none;
   color: #000000;
   padding-top: 20px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }

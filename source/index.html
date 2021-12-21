@@ -2,18 +2,21 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cat Energy</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
       <header class="page-header">
-        <div class="wrapper">
-          <a class="page-header__logo">
-            <img src="img/header-logo.svg" width="33" height="37" alt="Логотип Cat Energy">
-          </a>
-          <a class="page-header__logo-two">
-            <img src="img/logo-two.svg" alt="Cat Energy">
-          </a>
+        <div class="page-header__top wrapper">
+          <div class="page-header__logo-legend">
+            <a class="page-header__logo">
+              <img src="img/header-logo.svg" width="33" height="37" alt="Логотип Cat Energy">
+            </a>
+            <a class="page-header__logo-two">
+              <img src="img/logo-two.svg" alt="Cat Energy">
+            </a>
+          </div>
           <nav class="main-nav">
             <button class="main-nav__toggle" type="button">
               <span class="visually-hidden">Открыть меню</span>
@@ -61,31 +64,38 @@
         <section class="advantages wrapper">
           <h2 class="advantages__title title-general">Как это работает</h2>
           <ul class="advantages__list list-reset">
-            <li class="advantages__item advantages__item--healthy">Функциональное питание содержит только полезные питательные вещества.</li>
-            <li class="advantages__item advantages__item--powder">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
-            <li class="advantages__item advantages__item--appliance">Замените один-два приема обычной еды на наше функциональное питание.</li>
-            <li class="advantages__item advantages__item--scales">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</li>
+            <li class="advantages__item advantages__item-one advantages__item--healthy">Функциональное питание содержит только полезные питательные вещества.</li>
+            <li class="advantages__item advantages__item-two advantages__item--powder">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
+            <li class="advantages__item advantages__item-three advantages__item--appliance">Замените один-два приема обычной еды на наше функциональное питание.</li>
+            <li class="advantages__item advantages__item-four advantages__item--scales">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</li>
           </ul>
         </section>
         <section class="sample">
           <div class="sample__content wrapper">
             <h2 class="sample__title title-general">Живой пример</h2>
             <p>Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-            <ul class="sample__list list-reset">
-              <li class="sample__item">
-                <span class="sample__number">5 кг</span>
-                <span class="sample__list-title">Снижение веса</span>
-              </li>
-              <li class="sample__item">
-                <span class="sample__number">60 дней</span>
-                <span class="sample__list-title">Затрачено времени</span>
-              </li>
-            </ul>
-            <p class="sample__description">Затраты на питание: 15 000 РУБ.</p>
+            <div class="sample-legend">
+              <ul class="sample__list list-reset">
+                <li class="sample__item">
+                  <span class="sample__number">5 кг</span>
+                  <span class="sample__list-title">Снижение веса</span>
+                </li>
+                <li class="sample__item">
+                  <span class="sample__number">60 дней</span>
+                  <span class="sample__list-title">Затрачено времени</span>
+                </li>
+              </ul>
+              <p class="sample__description">Затраты на питание: 15 000 РУБ.</p>
+            </div>
           </div>
           <div class="sample__slider-container wrapper">
-            <div class="sample__slider-photo">
-              <img class="sample__photo-thick slider-photo" src="img/cat-small.png" alt="Толстый кот">
+            <div class="slider">
+              <div class="sample__slider-photo">
+                <img class="sample__photo-thick slider-photo" src="img/cat-small.png" alt="Толстый кот">
+              </div>
+              <div class="sample__slider-photo">
+                <img class="sample__photo-thin slider-photo" src="img/cat-thin.png" alt="Худой кот">
+              </div>
             </div>
             <div class="sample__range">
               <button class="sample__range-toggle" type="button">было</button>
@@ -100,7 +110,7 @@
           <h2 class="visually-hidden">Наши контакты</h2>
           <div class="contacts__wrapper wrapper">
             <div class="contacts__position">
-              <p class="contacts__text">Приглашаем к сотрудничеству дилеров!</p>
+              <p class="contacts__text">Приглашаем к&nbspсотрудничеству дилеров!</p>
               <p class="contacts__address">ул. Большая Конюшенная, д. 19/8<br> Санкт-Петербург</p>
             </div>
           </div>

@@ -4,18 +4,42 @@
 
 .sample__title {
   padding-top: 25px;
+  margin-bottom: 40px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 60px;
+  }
 }
 
 .sample__content p {
   font-size: 14px;
   line-height: 18px;
   color: #444444;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.sample__content {
+  @media (min-width: $tablet-width) {
+    background-color: #ffffff;
+  }
+
+  @media (min-width: $desktop-width) {
+    background-color: #f2f2f2;
+  }
 }
 
 .sample__item {
   border: 1px solid #dcdcdc;
   border-radius: 3px;
   margin-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 42px;
+  }
 }
 
 .sample__number {
@@ -68,4 +92,31 @@
   border: 1px solid #cdcdcd;
   border-radius: 6px;
   content: "";
+}
+
+.sample-legend {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+  }
+}
+
+.sample__list {
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: column;
+  }
+}
+
+.sample__slider-container {
+  @media (min-width: $desktop-width) {
+    background-color: #f2f2f2;
+  }
 }

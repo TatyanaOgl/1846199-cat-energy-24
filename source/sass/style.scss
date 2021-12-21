@@ -1,4 +1,5 @@
 @import "./global/global.scss";
+@import "./global/viewports.scss";
 @import "./global/fonts.scss";
 @import "./block/title-general.scss";
 @import "./block/page-header.scss";
@@ -11,9 +12,11 @@
 @import "./block/contacts.scss";
 @import "./block/main-inner.scss";
 @import "./block/catalog.scss";
+@import "./block/catalog-item.scss";
 @import "./block/button.scss";
 @import "./block/list-reset.scss";
 @import "./block/extra.scss";
+@import "./block/extra-table.scss";
 @import "./block/order-all.scss";
 @import "./block/selection.scss";
 @import "./block/title-legend.scss";

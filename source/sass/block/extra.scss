@@ -2,18 +2,6 @@
   padding-bottom: 35px;
 }
 
-.extra-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 35px;
-}
-
-.extra-table th,
-.extra-table td {
-  padding: 20px 0;
-  border-bottom: 1px solid #cdcdcd;
-}
-
 .extra__title {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -21,19 +9,4 @@
   line-height: 24px;
   margin: 0;
   margin-bottom: 80px;
-}
-
-.extra-table__list {
-  font-size: 14px;
-  line-height: 14px;
-  border-bottom: 1px solid #cdcdcd;
-}
-
-.extra-table__item-title {
-  font-family: "Oswald", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: #222222;
 }
